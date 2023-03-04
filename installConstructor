@@ -1,7 +1,7 @@
 import requests
 import os 
 
-url = 'https://raw.githubusercontent.com/mattmadairy/SafeMonitor/main/Installer%20script' ### pull script from GitHub
+url = 'https://raw.githubusercontent.com/mattmadairy/SafeMonitorInstaller/main/installScript' ### pull script from GitHub
 resp = requests.get(url)
 with open("SafeMonitorInstaller.sh", "w") as f:  ### write script to file
     f.write(resp.text)
