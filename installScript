@@ -8,6 +8,6 @@ git config --global --add safe.directory /home/pi/SafeMonitor
 git config --global --unset https.proxy
 git config --global pull.rebase false
 cd Downloads
-sudo rm installConstructor.py SafeMonitorInstaller.sh
 git config user.name "null"
 git config user.email "null"
+sudo rm installConstructor.py SafeMonitorInstaller.sh
